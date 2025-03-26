@@ -1,5 +1,14 @@
 import React from "react";
 
 export default function Banner() {
-  return <img src="images/Securityguard.jpeg" className="h-50 w-100"></img>;
+  return (
+    <div className="flex w-100">
+      {" "}
+      <img
+        src="images/Securityguardimage.jpeg"
+        className="w-full h-50
+      "
+      ></img>{" "}
+    </div>
+  );
 }
